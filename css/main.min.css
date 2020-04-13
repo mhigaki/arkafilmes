@@ -4898,7 +4898,7 @@ button {
 .footer {
     position: relative;
     padding: 75px 0 95px;
-    background-image: url(../images/bg-footer-01.jpg);
+    background-image: url('https://images.unsplash.com/photo-1525199896530-b1d87c75c887?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=1925&h=1083&fit=crop');
 }
 
 .header-1--light,
@@ -7414,7 +7414,8 @@ button {
 .img-client {
     display: block;
 
-    /* text-align: center */
+    /* text-align: center
+ */
     margin-bottom: 70px;
 }
 
@@ -8223,7 +8224,6 @@ button:focus {
 
 .p-t-110 {
     padding-top: 110px;
-    display: none;
 }
 
 .p-r-110 {
