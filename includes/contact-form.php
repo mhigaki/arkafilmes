@@ -37,7 +37,7 @@ if (isset($_POST['message'])) {
 if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) {
     $headers = "From: $email_from\nMIME-Version: 1.0\nContent-type: text/html; charset=iso-8859-1\n";
     if (mail($email_from, $mail_title, $mail_body, $headers)) {
-        $serialized_data = '{"type":1, "message":"Formulário de contato enviado com sucesso. Obrigado, em breve voltarei a você!"}';
+        $serialized_data = '{"type":1, "message":"Formulário de contato enviado com sucesso. Obrigado, em breve entrarei em contato!"}';
         echo $serialized_data;
     } else {
         $serialized_data = '{"type":0, "message":"Falha no formulário de contato. Por favor, envie novamente mais tarde!"}';
