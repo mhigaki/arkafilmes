@@ -7363,13 +7363,13 @@ button {
 }
 
 .bg-parallax {
-    background-attachment: fixed;
-    background-position: center center;
+    background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .bg-pattern-1 {
