@@ -1,6 +1,7 @@
 <?php
 
-$mail_host = "milton.higaki@gmail.com";
+$mail_host = "rafaelmeira888@gmail.com";
+// $mail_host = "milton.higaki@gmail.com";
 $mail_title = "[ARKA Filmes] Contato pelo site";
 
 define("MAIL_HOST", $mail_host);
