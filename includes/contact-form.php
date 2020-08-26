@@ -1,13 +1,10 @@
 <?php
 
-$mail_host = "contato@arkafilmes.com.br";
-$mail_title = "[ARKA Filmes] Contato pelo site";
-
-define("MAIL_HOST", $mail_host);
-define("MAIL_TITLE", $mail_title);
+$to = "webmaster@arkafilmes.com.br";
+$subject = "[ARKA Filmes] Contato pelo site";
 
 $name = "";
-$email_from = "";
+$from = "";
 $message = "";
 $phone = "";
 $mail_body = "";
@@ -20,7 +17,7 @@ if (isset($_POST['name'])) {
 
 if (isset($_POST['email'])) {
     $email_from = $_POST['email'];
-    $mail_body .= "<h3>Email: </h3> <p>" . $email_from . "</p>";
+    $mail_body .= "<h3>Email: </h3> <p>" . $from . "</p>";
 }
 
 if (isset($_POST['phone'])) {
@@ -44,3 +41,4 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))
         echo $serialized_data;
     }
 };
+?>
