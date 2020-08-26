@@ -1,6 +1,6 @@
 <?php
 
-$mail_host = "webmaster@arkafilmes.com.br";
+$mail_host = "contato@arkafilmes.com.br";
 $mail_title = "[ARKA Filmes] Contato pelo site";
 
 define("MAIL_HOST", $mail_host);
@@ -14,23 +14,22 @@ $mail_body = "";
 
 if (isset($_POST['name'])) {
     $name = $_POST['name'];
-    $mail_body = "<h3>Name: " . $name . "</h3>";
+    $mail_body .= "<h3>Nome: </h3><p>" . $name . "</p>";
 }
-
 
 if (isset($_POST['email'])) {
     $email_from = $_POST['email'];
-    $mail_body .= "<h3>Email: " . $email_from . "</h3>";
+    $mail_body .= "<h3>Email: </h3><p>" . $email_from . "</p>";
 }
 
 if (isset($_POST['phone'])) {
     $phone = $_POST['phone'];
-    $mail_body .= "<h3>Phone Number: </h3><p>" . $phone . "</p>";
+    $mail_body .= "<h3>Telefone: </h3><p>" . $phone . "</p>";
 }
 
 if (isset($_POST['message'])) {
     $message = nl2br($_POST['message']);
-    $mail_body .= "<h3>Message: </h3><p>" . $message . "</p>";
+    $mail_body .= "<h3>Mensagem: </h3><p>" . $message . "</p>";
 }
 
 
