@@ -1,6 +1,6 @@
 <?php
 
-$mail_host = "webmaster@arkafilmes.com.br";
+$mail_host = "contato@arkafilmes.com.br";
 $mail_title = "[ARKA Filmes] Contato pelo site";
 
 define("MAIL_HOST", $mail_host);
