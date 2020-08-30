@@ -152,7 +152,12 @@ button {
 }
 
 .bg-pattern-01 {
-    background: url(../images/bg-pattern-01.jpg) center center/cover no-repeat fixed;
+    /* background: url(../images/bg-pattern-01.jpg) center center/cover no-repeat fixed */
+    background-image: url('../images/48367595_263358381026026_4826092310557097984_o.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .block-revealer {

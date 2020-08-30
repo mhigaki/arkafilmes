@@ -128,7 +128,7 @@
         var idMapHolder = mapHolder.attr('id');
 
         var options = {
-            makericon: 'images/icons/ic-maker-01.png',
+            makericon: 'images/icon/marker.png',
             makers: '[["Arka Filmes", "Content", -23.581963, -46.7638745]]',
             zoom : 17,
             center: new google.maps.LatLng(-23.581963, -46.7638745),
