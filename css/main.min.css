@@ -17306,6 +17306,7 @@ button:focus {
     min-width: 100%;
     min-height: 100%;
     width: auto;
+    background-attachment: fixed;
 }
 
 body {
