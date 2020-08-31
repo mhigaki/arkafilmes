@@ -17300,7 +17300,6 @@ button:focus {
     position: fixed;
     z-index: -1000;
     background-size: cover;
-    background-attachment: fixed;
     top: 0;
     left: 0;
     height: auto;
