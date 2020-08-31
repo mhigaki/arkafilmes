@@ -5271,7 +5271,7 @@ button {
     -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
     -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
-    background: rgba(255,255,255,.95);
+    background: rgba(15, 13, 13, 0.95);
     z-index: 9999;
 }
 
@@ -5281,7 +5281,7 @@ button {
 
 .menu a {
     font-size: 13px;
-    color: #222;
+    color: #a4a4a4;
 }
 
 .menu a:hover {
@@ -17294,4 +17294,21 @@ button:focus {
 
 .ic-ytube:hover {
     color: #bb0000;
+}
+
+.bg_video {
+    position: fixed;
+    z-index: -1000;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+}
+
+body {
+    background: rgba(242, 228, 228, 0.14);
 }
