@@ -5101,7 +5101,6 @@ button {
 }
 
 .header-mobile {
-    position: relative;
 }
 
 .header-mobile .header-mobile__bar {
@@ -5281,7 +5280,7 @@ button {
 
 .menu a {
     font-size: 13px;
-    color: #a4a4a4;
+    color: #000;
 }
 
 .menu a:hover {
@@ -5482,7 +5481,7 @@ button {
 .menu-sidebar {
     z-index: 99999;
     width: 445px;
-    background: #fff;
+    background: #ffffff;
     padding: 75px 80px 75px 85px;
     overflow-y: scroll;
     transition: all .5s ease;
@@ -5501,7 +5500,7 @@ button {
 }
 
 .menu-sidebar.active {
-    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translate 3d(0,0,0);
     -moz-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
@@ -7372,7 +7371,7 @@ button {
     background: rgba(0,0,0,.85);
 }
 
-.bg-parallax {
+/* .bg-parallax {
     background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -7380,8 +7379,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
-
+} */
 .bg-pattern-1 {
     background: url(../images/icon/bg-pattern-02.jpg) center center/cover no-repeat;
 }
@@ -17296,19 +17294,3 @@ button:focus {
     color: #bb0000;
 }
 
-.bg_video {
-    position: fixed;
-    z-index: -1000;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    background-attachment: fixed;
-}
-
-body {
-    background: rgba(242, 228, 228, 0.14);
-}

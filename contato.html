@@ -56,6 +56,7 @@
     <link href="vendor/revolution/css/settings.css" rel="stylesheet"/>
     <!-- Main CSS-->
     <link href="css/main.min.css" rel="stylesheet" media="all">
+    <link href="arka-theme.css" rel="stylesheet" type="text/css">
     <!--Favicons-->
     <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon"/>
     <link rel="apple-touch-icon" href="images/icon/apple-touch-icon.png"/>
@@ -67,6 +68,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-touch-icon-144x144.png"/>
     <link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-touch-icon-152x152.png"/>
     <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon-180x180.png"/>
+    <link href="arka-theme.css" rel="stylesheet" type="text/css">
   </head>
   <body class="animsition js-preloader">
     <!-- Google Tag Manager (noscript) -->
@@ -126,7 +128,7 @@
           <div class="header-mobile__bar">
             <div class="container-fluid">
               <div class="header-mobile__bar-inner">
-                <a class="logo" href="index.html"> <img src="images/icon/logo-black.png" alt="ARKA Logo"/> </a>
+                <a class="logo" href="index.html"> <img src="images/logo-branco.png" alt="ARKA Logo"/> </a>
                 <button class="hamburger hamburger--slider float-right" type="button">
                   <span class="hamburger-box"> <span class="hamburger-inner"></span> </span>
                 </button>
@@ -155,7 +157,7 @@
       </header>
       <!-- END HEADER-->
       <!-- MAIN-->
-      <main id="main" style="background-color: rgba(252, 243, 243, 0.35);">
+      <main id="main">
         <!-- PAGE LINE-->
         <div class="page-line">
           <div class="container">
@@ -184,40 +186,40 @@
             <div class="map-wrapper js-google-map m-b-60">
               <div class="map__holder js-map-holder" id="map" style="height: 370px;">
 </div>
-              <div class="row no-gutters">
-                <div class="col-lg-4">
-                  <div class="contact-info">
-                    <div class="contact-info__item">
-                      <h5 class="title--sm2">endereço :</h5>
-                      <p class="value">R. Inácio Manuel Álvares, 80,<br/>Butantã, São Paulo/SP - 05372-110.</p>
-                    </div>
-                    <div class="contact-info__item">
-                      <h5 class="title--sm2">celular :</h5>
-                      <p class="value">+55 (11) 99192-7183</p>
-                    </div>
-                    <div class="contact-info__item">
-                      <h5 class="title--sm2">email :</h5>
-                      <p class="value">contato@arkafilmes.com.br</p>
-                    </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-lg-4">
+                <div class="contact-info">
+                  <div class="contact-info__item">
+                    <h5 class="title--sm2">endereço :</h5>
+                    <p class="value">R. Inácio Manuel Álvares, 80,<br/>Butantã, São Paulo/SP - 05372-110.</p>
+                  </div>
+                  <div class="contact-info__item">
+                    <h5 class="title--sm2">celular :</h5>
+                    <p class="value">+55 (11) 99192-7183</p>
+                  </div>
+                  <div class="contact-info__item">
+                    <h5 class="title--sm2">email :</h5>
+                    <p class="value">contato@arkafilmes.com.br</p>
                   </div>
                 </div>
-                <div class="col-lg-8">
-                  <form class="form-contact js-contact-form" method="post" action="#">
-                    <div class="form-row no-gutters">
-                      <div class="col-md-6">
-                        <input class="au-input" type="text" name="name" placeholder="Nome" required="required"/>
-                        <input class="au-input" type="email" name="email" placeholder="Email" required="required" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"/>
-                        <input class="au-input" type="text" name="phone" placeholder="Telefone" required="required"/>
-                      </div>
-                      <div class="col-md-6 p-r-0">
-                        <textarea class="au-textarea" name="message" placeholder="Mensagem*" required="required"></textarea>
-                        <div class="text-right">
-                          <button class="au-btn au-btn--solid" type="submit">Enviar a mensagem</button>
-                        </div>
+              </div>
+              <div class="col-lg-8">
+                <form class="form-contact js-contact-form" method="post" action="#">
+                  <div class="form-row no-gutters">
+                    <div class="col-md-6">
+                      <input class="au-input" type="text" name="name" placeholder="Nome" required="required"/>
+                      <input class="au-input" type="email" name="email" placeholder="Email" required="required" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"/>
+                      <input class="au-input" type="text" name="phone" placeholder="Telefone" required="required"/>
+                    </div>
+                    <div class="col-md-6 p-r-0">
+                      <textarea class="au-textarea" name="message" placeholder="Mensagem*" required="required"></textarea>
+                      <div class="text-right">
+                        <button class="au-btn au-btn--solid" type="submit">Enviar a mensagem</button>
                       </div>
                     </div>
-                  </form>
-                </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
@@ -226,7 +228,7 @@
       </main>
       <!-- END MAIN-->
       <!-- FOOTER-->
-      <footer class="footer bg-parallax" id="af_footer_paralax">
+      <footer id="af_footer_paralax" class="footer">
         <div class="bg-overlay bg-overlay--p85"></div>
         <div class="container">
           <div class="row">

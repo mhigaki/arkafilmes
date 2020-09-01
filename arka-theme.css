@@ -1,0 +1,90 @@
+.bg_video {
+    position: fixed;
+    z-index: -1000;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: auto;
+    min-height: 100%;
+    height: auto;
+    min-width: 100%;
+}
+
+body {
+    background: transparent;
+}
+
+.title-sub--c8 {
+    color: #dedede;
+}
+
+.title-2 {
+    font-size: 700;
+    font-size: 48px;
+    color: #ffffff;
+    line-height: -webkit-calc(60/48);
+    line-height: -moz-calc(60/48);
+    line-height: calc(60/48);
+}
+
+.title--sm2 {
+    color: #ffffff;
+}
+
+p.value {
+    color: #ffffff;
+}
+
+.au-btn--solid,
+.swal-button {
+    background: #fff;
+    color: #222;
+    border: 0;
+    line-height: 45px;
+}
+
+.bg-parallax {
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer {
+    position: relative;
+    padding: 75px 0 95px;
+    background-image: url('../images/bg-footer.jpeg');
+}
+
+.menu a {
+    font-size: 13px;
+    color: #fff;
+}
+
+.menu a:hover {
+    color: #fcc63b;
+}
+
+.menu-mobile .menu-item a:hover {
+    /* padding: 10px 25px 10px 15px */
+    /* border-bottom: 1px solid #a4a4a4 */
+    /* position: relative */
+    color: #fcc63b;
+}
+
+.menu-mobile .menu-item a {
+    padding: 10px 25px 10px 15px;
+    border-bottom: 1px solid #a4a4a4;
+    position: relative;
+    color: #000;
+}
+
+.hamburger:hover {
+    background: #fcc63b;
+    border-color: transparent;
+}
