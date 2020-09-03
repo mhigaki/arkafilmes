@@ -7368,7 +7368,7 @@ button {
 }
 
 .bg-overlay--p85 {
-    background: rgba(0,0,0,.85);
+    background: rgba(0, 0, 0, 0.85);
 }
 
 /* .bg-parallax {
