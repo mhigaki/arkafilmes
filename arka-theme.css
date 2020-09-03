@@ -1,15 +1,13 @@
 .bg_video {
-    position: fixed;
     z-index: -1000;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    width: auto;
-    min-height: 100%;
     height: auto;
+    background-size: cover;
+    width: auto;
     min-width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    min-height: 100%;
 }
 
 body {
@@ -87,4 +85,26 @@ p.value {
 .hamburger:hover {
     background: #fcc63b;
     border-color: transparent;
+}
+
+.title-sub {
+    font-size: 11px;
+    color: #eeeeee;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #ffffff;
+    line-height: -webkit-calc(50/38);
+    line-height: -moz-calc(50/38);
+    line-height: calc(50/38);
+}
+
+.media-statistic-2 .media__title {
+    color: #faf5f5;
+    margin-top: 4px;
+    box-shadow: inset 20px -110px black;
 }

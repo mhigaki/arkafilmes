@@ -2265,7 +2265,7 @@ a:hover {
     display: block;
     width: 100px;
     height: 100px;
-    background: #f8f8f8;
+    background-color: rgba(204, 204, 204, 0.43);
 }
 
 .media-statistic-2 .media__number {
@@ -5270,7 +5270,7 @@ button {
     -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
     -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
-    background: rgba(15, 13, 13, 0.95);
+    background: #0f0d0d;
     z-index: 9999;
 }
 
