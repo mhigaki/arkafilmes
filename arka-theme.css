@@ -56,7 +56,9 @@ p.value {
 .footer {
     position: relative;
     padding: 75px 0 95px;
-    background-image: url('images/bg-footer.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/bg-footer.jpg');
 }
 
 .menu a {
@@ -111,4 +113,8 @@ p.value {
 
 body.contact-page {
     background-color: black;
+}
+
+.text--c2 {
+    color: #ffffff;
 }
