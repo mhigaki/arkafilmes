@@ -56,8 +56,6 @@ p.value {
 .footer {
     position: relative;
     padding: 75px 0 95px;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-image: url('images/bg-footer.jpg');
 }
 
@@ -117,4 +115,9 @@ body.contact-page {
 
 .text--c2 {
     color: #ffffff;
+}
+
+.footer.bg-parallax {
+    background-position: 0 -245px;
+    background-attachment: scroll;
 }
