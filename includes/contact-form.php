@@ -1,6 +1,14 @@
 <?php
+# @Author: Milton Higaki <higaki>
+# @Date:   Saturday, September 5th 2020, 8:50:03 pm
+# @Email:  milton.higaki@gmail.com
+# @Last modified by:   higaki
+# @Last modified time: Saturday, September 5th 2020, 8:50:03 pm
+# @Copyright: © 2020 ARKA FILMES - Desenvolvido por MNH
 
-$mail_host = "contato@arkafilmes.com.br";
+
+// $mail_host = "contato@arkafilmes.com.br";
+$mail_host = "webmaster@arkafilmes.com.br";
 $mail_title = "[ARKA Filmes] Contato pelo site";
 
 define("MAIL_HOST", $mail_host);

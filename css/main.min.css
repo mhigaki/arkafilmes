@@ -501,7 +501,7 @@ a {
 
 body,
 html {
-    background: #fff;
+    background: #000;
     color: #555;
     font-size: 13px;
     line-height: 2.3076923077;
@@ -659,7 +659,7 @@ a:hover {
     display: block;
     padding: 0 10px;
     font-size: 13px;
-    color: #333;
+    color: #fff;
 }
 
 .list-social__item a i {
@@ -2268,7 +2268,7 @@ a:hover {
 
 .media-statistic-2 .media__number {
     font-size: 30px;
-    color: #222;
+    color: #fff;
     font-weight: 700;
     display: inline-block;
     line-height: 1;
@@ -5099,6 +5099,7 @@ button {
 }
 
 .header-mobile {
+    position: relative;
 }
 
 .header-mobile .header-mobile__bar {
@@ -5269,7 +5270,7 @@ button {
     -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
     background: #0f0d0d;
-    z-index: 9999;
+    z-index: 100000;
 }
 
 .header--fixed .menu-item a {

@@ -56,6 +56,7 @@
     <link href="vendor/revolution/css/settings.css" rel="stylesheet"/>
     <!-- Main CSS-->
     <link href="css/main.min.css" rel="stylesheet" media="all">
+    <link href="css/arka-theme.css" rel="stylesheet" type="text/css">
     <!--Favicons-->
     <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon"/>
     <link rel="apple-touch-icon" href="images/icon/apple-touch-icon.png"/>
@@ -67,14 +68,13 @@
     <link rel="apple-touch-icon" sizes="144x144" href="images/icon/apple-touch-icon-144x144.png"/>
     <link rel="apple-touch-icon" sizes="152x152" href="images/icon/apple-touch-icon-152x152.png"/>
     <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon-180x180.png"/>
-    <link href="arka-theme.css" rel="stylesheet" type="text/css">
   </head>
   <body class="animsition js-preloader">
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53R58J8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
-    <video class="bg_video" autoplay="true" loop="true" preload="auto" crossorigin="anonymous">
+    <video autoplay="true" loop="true" preload="auto" crossorigin="anonymous" class="fullscreen-bg__video">
       <source src="images/bg.webm" type="video/webm"/>
     </video>
     <!-- End Google Tag Manager (noscript) -->
@@ -169,7 +169,7 @@
         </div>
         <!-- END PAGE LINE-->
         <!-- PAGE HEADING-->
-        <section class="section p-t-100 p-b-65" style="background-color: rgba(0, 0, 0, 0.38); background-origin: border-box;">
+        <section class="section p-t-100 p-b-65">
           <div class="container">
             <div class="page-heading">
               <h4 class="title-sub title-sub--c8 m-b-15">saiba quem somos</h4>
@@ -179,10 +179,10 @@
         </section>
         <!-- END PAGE HEADING-->
         <!-- PAGE IMAGE-->
-        <section class="section" style="background-color: rgba(0, 0, 0, 0.38); background-origin: border-box;">
+        <section class="section">
           <div class="wrap wrap--w1790">
-            <div class="container-fluid">
-              <video autoplay="true" loop="true">Your browser doesn't support HTML5 video tag.
+            <div class="container">
+              <video autoplay="true" loop="true" id="bgvid">Your browser doesn't support HTML5 video tag.
                 <source type="video/webm" src="images/arka-astro-alpha.webm">
               </video>
             </div>
@@ -190,7 +190,7 @@
         </section>
         <!-- END PAGE IMAGE-->
         <!-- ABOUT US-->
-        <section class="p-b-60 p-t-80 section" style="background-color: rgba(234, 229, 229, 0.12); background-clip: border-box;">
+        <section class="p-b-60 p-t-80 section">
           <div class="container">
             <div class="row no-gutters">
               <div class="col-lg-6">
@@ -506,21 +506,6 @@
     <script src="vendor/select2/select2.min.js"></script>
     <script src="vendor/sweetalert/sweetalert.min.js"></script>
     <script src="vendor/noUiSlider/nouislider.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- | (Load Extensions only on Local File Systems ! | The following part can be removed on Server for On Demand Loading) -->
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <!-- Config Revolution Slider-->
-    <script type="text/javascript" src="js/config-revolution.min.js"></script>
-    <script src="js/config-contact.js"></script>
     <!-- Main JS-->
     <script src="js/global.js"></script>
   </body>
