@@ -166,7 +166,9 @@ body.contact-page {
 .footer.bg-parallax {
     background-position: 0 -245px;
     background-attachment: scroll;
-}@media (max-width:991px){
+}
+
+@media (max-width:991px){
     .footer.bg-parallax {
         background-position: center center;
     }
@@ -178,4 +180,8 @@ body.contact-page {
     .footer-col {
         margin-bottom: 50px;
     }
+}
+
+.media__text {
+    color: white;
 }

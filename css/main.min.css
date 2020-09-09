@@ -1995,7 +1995,7 @@ a:hover {
 }
 
 .media-service .media__img {
-    transition: all .3s ease;
+    transition: all,.3s,ease;
     margin-bottom: 40px;
 }
 
@@ -4103,6 +4103,7 @@ button {
     top: 0;
     bottom: 0;
     left: 0;
+    visibility: hidden;
 }
 
 .page-coming .section-content,
@@ -4145,6 +4146,7 @@ button {
 .page-line {
     right: 0;
     z-index: 0;
+    visibility: hidden;
 }
 
 .page-line-slider,
@@ -4206,6 +4208,7 @@ button {
 .page-line__item-4 {
     left: auto;
     right: 0;
+    visibility: hidden;
 }
 
 .page-coming {
