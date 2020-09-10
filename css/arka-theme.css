@@ -185,3 +185,7 @@ body.contact-page {
 .media__text {
     color: white;
 }
+
+.title--sm a {
+    color: #fff;
+}
