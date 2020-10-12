@@ -1,12 +1,10 @@
-/**
+/* *
  * @Author: Milton Higaki <higaki>
  * @Date:   Wednesday, September 9th 2020, 11:06:28 pm
  * @Email:  milton.higaki@gmail.com
  * @Last modified by:   higaki
  * @Last modified time: Wednesday, September 9th 2020, 11:06:28 pm
- * @Copyright: © 2020 ARKA FILMES - Desenvolvido por MNH
- */
-
+ * @Copyright: © 2020 ARKA FILMES - Desenvolvido por MNH */
 /* -----------------------------------------------------------------------------
 
 -	Revolution Slider 5.0 Default Style Settings -
@@ -294,7 +292,7 @@ website:   	http://www.themepunch.com
 .rev_slider_wrapper {
     position: relative;
     z-index: 0;
-    width: 50%;
+    width: 100%;
 }
 
 .rev_slider {
