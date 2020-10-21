@@ -4145,8 +4145,8 @@ button {
 
 .page-line {
     right: 0;
-    z-index: 0;
     visibility: hidden;
+    z-index: 0;
 }
 
 .page-line-slider,
