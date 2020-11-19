@@ -62,8 +62,8 @@
       var option = {
         accessibility: true,
         adaptiveheight: false,
-        autoplay: false,
-        autoplayspeed: 20000,
+        autoplay: true,
+        autoplayspeed: 5000000,
         arrows: false,
         asnavfor: null,
         appendarrows: $(this),
