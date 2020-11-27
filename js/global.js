@@ -63,7 +63,7 @@
         accessibility: true,
         adaptiveheight: false,
         autoplay: true,
-        autoplayspeed: 5000000,
+        autoplayspeed: 3000,
         arrows: false,
         asnavfor: null,
         appendarrows: $(this),
@@ -87,11 +87,12 @@
         xs: this.sm,
         vertical: false,
         loop: true,
-        thumb: false,
+        thumb: true,
         customnav: false,
         variablewidth: false,
         variableheight: false,
         swipetoslide: true
+
       };
 
       for (var k in option) {
