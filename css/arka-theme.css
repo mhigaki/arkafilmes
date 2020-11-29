@@ -58,6 +58,7 @@
 
 body {
     background: transparent;
+    z-index: 0;
 }
 
 .title-sub--c8 {
