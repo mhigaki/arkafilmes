@@ -156,6 +156,7 @@ p.value {
 }
 
 body.contact-page {
+    z-index: 0;
     background-color: black;
 }
 
