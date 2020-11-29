@@ -8,24 +8,41 @@
             sliderLayout: 'auto',
 
             /* basic navigation arrows and bullets */
-            navigation: {
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
 
-                arrows: {
-                    enable: true,
-                    style: 'hesperiden',
-                    hide_onleave: false
-                },
+							keyboardNavigation:"off",
+							keyboard_direction: "horizontal",
+							mouseScrollNavigation:"off",
+ 							mouseScrollReverse:"default",
+							onHoverStop:"off",
 
-                bullets: {
-                    enable: true,
-                    style: 'hesperiden',
-                    hide_onleave: false,
-                    h_align: 'center',
-                    v_align: 'bottom',
-                    h_offset: 0,
-                    v_offset: 20,
-                    space: 5
-                }
-            }
+							tabs: {
+
+								style:"hesperiden",
+								enable:true,
+                width: 180,
+                height: 65,
+                min_width: 180,
+								wrapper_padding:10,
+								wrapper_color:"#ffffff",
+								wrapper_opacity:"1",
+								tmp:'<div class="tp-tab-content">  <span class="tp-tab-date">{{param1}}</span>  <span class="tp-tab-title">{{title}}</span></div><div class="tp-tab-image"></div>',
+								visibleAmount: 10,
+								hide_onmobile: false,
+								hide_onleave:false,
+								hide_delay:200,
+								direction:"horizontal",
+								span:false,
+								position:"outer-bottom",
+								space:0,
+								h_align:"center",
+								v_align:"bottom",
+								h_offset:0,
+								v_offset:0
+
+							}
+						}
         });
     });

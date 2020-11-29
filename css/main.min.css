@@ -4103,7 +4103,6 @@ button {
     top: 0;
     bottom: 0;
     left: 0;
-    visibility: hidden;
 }
 
 .page-coming .section-content,
@@ -4145,8 +4144,8 @@ button {
 
 .page-line {
     right: 0;
-    visibility: hidden;
     z-index: 0;
+    display: none;
 }
 
 .page-line-slider,
