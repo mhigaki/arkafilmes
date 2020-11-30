@@ -926,5 +926,4 @@
     console.log(err);
   }
 
-
 })(jQuery);

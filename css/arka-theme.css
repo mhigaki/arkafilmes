@@ -191,3 +191,9 @@ body.contact-page {
 .title--sm a {
     color: #fff;
 }
+
+#map {
+    height: 400px;
+    margin-top: 50px;
+    width: 100%;
+}
