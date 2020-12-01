@@ -26,7 +26,7 @@ jQuery(document).ready(function() {
         height: 65,
         min_width: 200,
         wrapper_padding: 10,
-        wrapper_color: "#ffffff",
+        wrapper_color: "#000",
         wrapper_opacity: "1",
         tmp: '<div class="tp-tab-content">  <span class="tp-tab-date">{{param1}}</span>  <span class="tp-tab-title">{{title}}</span></div><div class="tp-tab-image"></div>',
         visibleAmount: 10,
@@ -44,9 +44,9 @@ jQuery(document).ready(function() {
 
       },
 
-      visibilityLevels: [1240, 1024, 778, 480],
-      gridwidth: 1230,
-      gridheight: 692,
+      visibilityLevels: [1201, 1200, 992, 768, 576],
+      gridwidth:1230,
+			gridheight:692,
       lazyType: "smart",
       shadow: 0,
       spinner: "off",

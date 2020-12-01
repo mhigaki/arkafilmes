@@ -4184,6 +4184,7 @@ button {
     background: #f2f2f2;
     opacity: .1;
     z-index: 9;
+    display: none;
 }
 
 #fs-container,
@@ -4986,6 +4987,7 @@ button {
     -moz-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    line-height: 40px;
 }
 
 .header-contact {
@@ -5074,9 +5076,9 @@ button {
 
 .header-5 .header-contact {
     color: #ebebeb;
-    margin: 0;
     display: block;
     text-align: right;
+    margin: 0 20px 0 0;
 }
 
 .header-content-center {
@@ -5147,7 +5149,7 @@ button {
 }
 
 .hamburger {
-    border: 1px solid #888;
+    border: 1px solid #020202;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
