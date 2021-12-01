@@ -118,9 +118,9 @@
 
     var options = {
       makericon: 'images/icon/marker.png',
-      makers: '[["Arka Filmes", "Content", -23.5181671, -46.8987385]]',
-      zoom: 17,
-      center: new google.maps.LatLng(-23.5181671,-46.8987385),
+      makers: '[["Arka Filmes", "Content", -23.5245227, -46.8082364]]',
+      zoom: 13,
+      center: new google.maps.LatLng(-23.5245227,-46.8082364),
       scrollwheel: 0,
       navigationcontrol: true,
       maptypecontrol: false,
