@@ -83,7 +83,7 @@ p.value {
 }
 
 .au-btn--solid,
-.swal-button {
+.swal-button {
     background: #fff;
     color: #222;
     border: 0;
@@ -102,7 +102,7 @@ p.value {
 
 .footer {
     position: relative;
-    padding: 75px 0 95px;
+    padding: 75px 0;
     background-image: url('../images/bg-footer.jpg');
 }
 
